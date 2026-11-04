@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='450' font-family='Arial' font-size='12'>
+<rect width='800' height='450' fill='white'/>
+<text x='400' y='28' text-anchor='middle' font-size='16' font-weight='bold'>Training Loss (MSE) vs Epoch</text>
+<line x1='70' y1='390.0' x2='770' y2='390.0' stroke='#ddd'/>
+<text x='62' y='394.0' text-anchor='end'>0.000</text>
+<line x1='70' y1='322.0' x2='770' y2='322.0' stroke='#ddd'/>
+<text x='62' y='326.0' text-anchor='end'>0.048</text>
+<line x1='70' y1='254.0' x2='770' y2='254.0' stroke='#ddd'/>
+<text x='62' y='258.0' text-anchor='end'>0.095</text>
+<line x1='70' y1='186.0' x2='770' y2='186.0' stroke='#ddd'/>
+<text x='62' y='190.0' text-anchor='end'>0.143</text>
+<line x1='70' y1='118.0' x2='770' y2='118.0' stroke='#ddd'/>
+<text x='62' y='122.0' text-anchor='end'>0.191</text>
+<line x1='70' y1='50.0' x2='770' y2='50.0' stroke='#ddd'/>
+<text x='62' y='54.0' text-anchor='end'>0.238</text>
+<text x='70.0' y='410' text-anchor='middle'>0</text>
+<text x='210.0' y='410' text-anchor='middle'>200</text>
+<text x='350.0' y='410' text-anchor='middle'>400</text>
+<text x='490.0' y='410' text-anchor='middle'>600</text>
+<text x='630.0' y='410' text-anchor='middle'>800</text>
+<text x='770.0' y='410' text-anchor='middle'>1000</text>
+<text x='400' y='435' text-anchor='middle'>Epoch</text>
+<line x1='70' y1='50' x2='70' y2='390' stroke='black'/>
+<line x1='70' y1='390' x2='770' y2='390' stroke='black'/>
+<polyline fill='none' stroke='#1f77b4' stroke-width='2' points='70.7,66.2 140.0,360.1 210.0,365.1 280.0,364.1 350.0,368.6 420.0,366.9 490.0,367.1 560.0,368.9 630.0,367.1 700.0,365.3 770.0,368.5'/>
+<polyline fill='none' stroke='#d62728' stroke-width='2' points='70.7,88.5 140.0,384.0 210.0,388.2 280.0,389.3 350.0,389.6 420.0,389.6 490.0,389.9 560.0,389.6 630.0,389.9 700.0,389.7 770.0,389.9'/>
+<text x='610' y='60' fill='#1f77b4'>■ Train loss</text>
+<text x='610' y='78' fill='#d62728'>■ Validation loss</text>
+</svg>

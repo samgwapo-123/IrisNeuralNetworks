@@ -1,0 +1,13 @@
+Confusion Matrix (rows = actual, columns = predicted)
+                  setosa  versicolor   virginica
+setosa                 7           0           0
+versicolor             0           7           0
+virginica              0           0           7
+
+Class          Precision      Recall    F1-score
+setosa            1.0000      1.0000      1.0000
+versicolor        1.0000      1.0000      1.0000
+virginica         1.0000      1.0000      1.0000
+Macro avg         1.0000      1.0000      1.0000
+
+Overall Accuracy: 100.00%
